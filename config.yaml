@@ -1,0 +1,23 @@
+service:
+  host: 127.0.0.1
+  port: 8001
+  mode: dev
+database:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: 199842
+  db_name: demodb
+cache:
+  host: 127.0.0.1
+  port: 6379
+  user: root
+  password: 199842
+  db_num: 0
+
+logs:
+  app_path: log/app.log
+  request_path: log/request.log
+  max_size: 10
+  max_age: 30
+
