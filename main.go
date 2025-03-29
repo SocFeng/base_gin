@@ -22,7 +22,7 @@ func main() {
 
 	// 配置日志
 	logs.InitLog()
-	logs.AppInfo("👌👌👌👌 Hello   !")
+	logs.AppInfo("👌👌👌👌 Hello!")
 
 	// 初始化数据库
 	dataBase.InitDB()
